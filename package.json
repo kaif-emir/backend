@@ -7,9 +7,9 @@
     "prisma:generate": "prisma generate",
     "prisma:validate": "prisma validate",
     "prisma:migrate": "prisma migrate dev",
-    "start": "npx prisma migrate deploy && node index.js",
-    "dev": "node index.js",
-    "postinstall": "prisma generate",
+      "start": "node index.js",
+  "dev": "node index.js",
+  "postinstall": "prisma generate",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
